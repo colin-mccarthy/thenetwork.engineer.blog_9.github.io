@@ -14,8 +14,8 @@ show_excerpts: true # set to true to show excerpts on the homepage
 sass:
   sass_dir: _sass
 plainwhite:
-  name: Adam Denisov
-  tagline: Developer. Designer
+  name: Colin McCarthy
+  tagline: Automation & Cloud Native Advisor
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   search: true # set to true to enable searchbar
@@ -28,9 +28,9 @@ plainwhite:
     - post
   # generate social links in footer
   social_links:
-    twitter: Colinnation
-    github:  colin-mccarthy
-    linkedIn: in/colinmccarthyccna/
+    twitter: https://twitter.com/Colinnation
+    github:  https://github.com/colin-mccarthy
+    linkedIn: https://www.linkedin.com/in/colinmccarthyccna/
     #rss: rss
     #dribbble: jekyll
     #flickr:   jekyll
