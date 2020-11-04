@@ -103,7 +103,7 @@ roleRef:
 <script src="https://utteranc.es/client.js"
         repo="colin-mccarthy/thenetwork.engineer.blog_9.github.io"
         issue-term="pathname"
-        theme="icy-dark"
+        theme="preferred-color-scheme"
         crossorigin="anonymous"
         async>
 </script>
