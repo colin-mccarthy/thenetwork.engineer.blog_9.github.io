@@ -8,7 +8,6 @@ description: > # this means to ignore newlines until "show_exerpts:"
 show_excerpts: true # set to true to show excerpts on the homepage
 
 
-remote_theme: samarsault/plainwhite-jekyll
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -56,7 +55,8 @@ plainwhite:
 # - about.md
 
 # Build settings
-theme: plainwhite
+#theme: plainwhite
+remote_theme: samarsault/plainwhite-jekyll
 
 plugins:
   - jekyll-seo-tag
