@@ -9,6 +9,10 @@ What are they? Serverless functions?.. a new Tower feature?.. Well they are an i
 
 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fBNTYOovtkI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
 1. Create a Project/Namespace in OpenShift named (ansible-tower). This can be done in the OpenShift console or via oc/kubectl.
 
 ```yaml
