@@ -15,7 +15,7 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: Colin McCarthy
-  tagline: Automation & Cloud Native Advisor
+  tagline: Solutions Architect
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   search: true # set to true to enable searchbar
