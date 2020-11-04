@@ -29,7 +29,7 @@ plainwhite:
     - post
   # generate social links in footer
   social_links:
-    twitter: @Colinnation
+    twitter: Colinnation
     github:  colin-mccarthy
     linkedIn: in/colinmccarthyccna/
     #rss: rss
