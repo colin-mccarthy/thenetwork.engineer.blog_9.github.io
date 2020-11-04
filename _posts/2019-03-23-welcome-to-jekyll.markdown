@@ -13,6 +13,16 @@ What are they? Serverless functions?.. a new Tower feature?.. Well they are an i
 
 
 
+This is made possible by using Ansible Runner.
+
+The project can be found under the Ansible org on GitHub.
+
+https://github.com/ansible/ansible-runner/tree/stable/1.4.x
+
+Below I will detail the steps required to set this up. Then show you how to build some Dockerfiles that use Ansible Runner
+
+
+
 1. Create a Project/Namespace in OpenShift named (ansible-tower). This can be done in the OpenShift console or via oc/kubectl.
 
 ```yaml
