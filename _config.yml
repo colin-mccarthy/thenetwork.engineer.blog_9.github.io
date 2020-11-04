@@ -28,9 +28,9 @@ plainwhite:
     - post
   # generate social links in footer
   social_links:
-    twitter: https://twitter.com/Colinnation
-    github:  https://github.com/colin-mccarthy
-    linkedIn: https://www.linkedin.com/in/colinmccarthyccna/
+    twitter: Colinnation
+    github:  colin-mccarthy
+    linkedIn: in/colinmccarthyccna/
     #rss: rss
     #dribbble: jekyll
     #flickr:   jekyll
