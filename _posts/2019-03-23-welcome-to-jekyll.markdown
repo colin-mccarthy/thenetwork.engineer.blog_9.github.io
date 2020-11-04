@@ -9,6 +9,8 @@ What are they? Serverless functions?.. a new Tower feature?.. Well they are an i
 
 
 
+1. Create a Project/Namespace in OpenShift named (ansible-tower). This can be done in the OpenShift console or via oc/kubectl.
+
 ```yaml
 
 apiVersion: v1
@@ -17,6 +19,8 @@ metadata:
   name: ansible-tower
 
 ```
+
+2. Create a ServiceAccount named (tower).This can be done in the OpenShift console or via oc/kubectl.
 
 ```yaml
 
@@ -27,6 +31,8 @@ metadata:
   namespace: ansible-tower
 
 ```
+
+3. Create a Role named (pod-manager).This can be done in the OpenShift console or via oc/kubectl.
 
 ```yaml
 
@@ -56,6 +62,8 @@ rules:
       - pods/exec
 
 ```
+
+4. Create a RoleBinding that binds the pod manager role to the tower service account.This can be done in the OpenShift console or via oc/kubectl.
 
 ```yaml
 
