@@ -100,10 +100,9 @@ roleRef:
 
 
 
-![image](/images/lens.jpg)
 
 
-<img src="images/lens.jpg" alt="">
+<img  width="560" height="315" src="/images/lens.jpg" alt="">
 
 
 <script src="https://utteranc.es/client.js"
