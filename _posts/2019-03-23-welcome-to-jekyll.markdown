@@ -100,6 +100,11 @@ roleRef:
 
 
 
+![image](/images/lens.jpg)
+
+
+
+
 
 <script src="https://utteranc.es/client.js"
         repo="colin-mccarthy/thenetwork.engineer.blog_9.github.io"
