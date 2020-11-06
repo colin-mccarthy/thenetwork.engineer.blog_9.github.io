@@ -2,7 +2,6 @@
 layout: post
 title:  "Ansible Tower Container Groups with OpenShift"
 date:   2020-10-23
-image: lens.jpg
 ---
 
 What are they? Serverless functions?.. a new Tower feature?.. Well they are an integration to run your playbooks
@@ -101,8 +100,7 @@ roleRef:
 
 
 
-
-<img  width="560" height="315" src="/images/lens.jpg" alt="">
+![image](/images/lens.jpg)
 
 
 <script src="https://utteranc.es/client.js"
