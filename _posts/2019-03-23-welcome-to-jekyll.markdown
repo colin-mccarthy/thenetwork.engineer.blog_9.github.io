@@ -98,9 +98,85 @@ roleRef:
 ```
 
 
+Ansible Tower
+
+1. Create the Credential
+
+pic coming soon
+
+CREDENTIAL TYPE
+
+Choose the OpenShift or Kubernetes API Bearer Token type.
+
+Copy the token from the service account created in that project (User Management > Service Accounts > (tower) ←The one you made in the earlier steps)
 
 
-![image](/images/lens.jpg)
+pic coming soon
+
+OPENSHIFT OR KUBERNETES API ENDPOINT
+
+I grabbed the short version from the oc login command, it should look like (https://api.foo.openshift.io:6443)
+
+2. Create the Container Group
+
+In Ansible Tower under Instance Groups > The green plus symbol > CREATE CONTAINER GROUP
+
+
+pic coming soon
+
+
+3. Configure the Container Group
+
+Give it a name and select the OpenShift or Kubernetes API Bearer Token we created earlier in the steps above.
+
+
+pic coming soon
+
+
+Now the fun part, paste in your Kubernetes Pod manifest. I like to use this one as a default when first getting started.
+
+Pod manifest
+
+
+
+pic coming soon
+
+
+What about module dependencies?
+
+As we know in Ansible Tower we need to install our dependencies in custom virtual environments. How can we accomplish this when using Container Groups? Well, you can make your own container images with the dependencies already installed. Start by creating a base Ansible Runner image in Quay. This way you control the software delivery supply chain. Mine is listed below.
+
+https://quay.io/repository/colin_mccarthy/ansible-runner
+
+I built this by cloning the Ansible Runner Github repo and then building from Dockerfile.dev
+
+Runner with pysnow package installed
+
+I then made a new image, I went ahead and installed the dependency (pysnow) via pip right in the Dockerfile.
+
+Dockerfile
+
+
+
+
+code coming soon
+
+
+
+
+I built a new image in Quay based on this Dockerfile and now its ready to use in my Pod manifest like this.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <script src="https://utteranc.es/client.js"
